@@ -1,3 +1,4 @@
+//find min and max value in array
 class minmax{
     public static int min(int[] num){
         int min=1;
@@ -15,7 +16,6 @@ class minmax{
             if(num[i] > max) {
                 max = num[i];
             }
-
         }
         return max;
     }
